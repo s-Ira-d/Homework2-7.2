@@ -1,0 +1,27 @@
+{
+  "name": "homework2-7.2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve src/data.js",
+    "build": "parcel build src/data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-Ira-d/Homework2-7.2.git"
+  },
+  "author": "Ira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-Ira-d/Homework2-7.2/issues"
+  },
+  "homepage": "https://github.com/s-Ira-d/Homework2-7.2#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "@partiellkorrekt/parcel-transformer-handlebars": "^1.0.0",
+    "handlebars": "^4.7.8"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
