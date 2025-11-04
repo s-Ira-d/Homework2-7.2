@@ -4,18 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <form id="add-form">
-      <input type="text" id="name" placeholder="Назва товару" required />
-      <input type="number" id="price" placeholder="Ціна" required />
-      <input type="text" id="description" placeholder="Опис" required />
-      <button type="submit">Додати товар</button>
-    </form>
 
-    <div id="result"></div>
+   <div class="container" id="bookmarkApp">
+  <h1>закладки</h1>
+  <input type="text" id="bookmarkInput" placeholder="URL">
+  <button id="addBookmarkBtn">додати</button>
+  <ul id="bookmarkList"></ul>
+</div>
 
-    <script type="module" src="./main.js"></script>
+<div class="container" id="formApp">
+  <h1>форма</h1>
+  <input type="text" id="username" placeholder="Логін">
+  <input type="password" id="password" placeholder="Пароль">
+  <button id="saveBtn">зберегти</button>
+</div>
+
+  <div class="container"></div>
+    <h1>каталог товарів</h1>
+    <input type="text" id="searchInput" placeholder="Пошук продукту...">
+    <div id="productContainer"></div>
+  </div>
+
+        <!-- <script type="module" src="./data.js"></script> -->
+        <script type="module" src="./form.js"></script>
+        <script type="module" src="./notes.js"></script>
+  </div>
   </body>
 </html>
